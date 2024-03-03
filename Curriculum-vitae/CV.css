@@ -1,0 +1,100 @@
+html {
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: serif;
+}
+
+footer {
+    padding: 0.5em;
+    background-color: #6d0006;
+}
+
+footer a {
+    color: #bd4c42;
+}
+
+#titulo {
+    color: wheat;
+    background-color: #6d0006;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    color: #bd4c42;
+}
+nav li {
+    
+    padding: 5px;
+    border: solid #6d0006;
+    margin: 0.5em;
+    display: inline-block;
+    max-width: fit-content;
+   
+}
+
+#copyright {
+    font-size: 0.5em;
+}
+
+h2 {
+    text-align: center;
+}
+
+#educação {
+    border-top: #6d0006 solid 1px;
+    border-bottom: solid 1px #6d0006;
+    text-align: center;
+}
+
+#cursos {
+    border-bottom: #6d0006 solid 1px;
+}
+
+#educação section {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 2em;
+    border: #bd4c42 solid 3px;
+    padding: 1em;
+}
+
+#educação section h3 {
+    color: #bd4c42;
+    font-weight: bolder;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#apresentação {
+    text-align: center;
+    margin: 1em;
+}
+
+#cursos section {
+    display: block;
+    margin: 2em;
+
+    padding: 0.5em;
+    text-align: center;
+}
+
+@media screen and ( max-width:768px ) {
+    nav {
+        display:list-item
+    }
+}
+
+
+
